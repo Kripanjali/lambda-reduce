@@ -1,0 +1,4 @@
+import csv
+
+callsFile = open('calls.csv', 'r')
+CF = csv.DictReader(callsFile)
